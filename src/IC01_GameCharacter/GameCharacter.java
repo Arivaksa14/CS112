@@ -5,7 +5,7 @@ import java.util.Random;
 public class GameCharacter {
 
     private String mName;
-    private int mLevel;
+    private final int mLevel;
     private int mHealthPoints;
     private int mGold;
     private int mMagic;

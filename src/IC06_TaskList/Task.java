@@ -60,11 +60,18 @@ public class Task implements Serializable {
     }
     @Override
     public String toString() {
+        String priorityS="Low";
+        if(mPriority==1){
+            priorityS="High";
+        }else if (mPriority==2){
+           priorityS="Medium";
+        }
+
         return "Task [" +
-                "Name='" + mName + '\'' +
-                ", Due Date='" + mDueDate + '\'' +
-                ", Deadline='" + mDeadline + '\'' +
-                ", Priority=" + mPriority +
+                "name=" + mName +
+                ", dueDate=" + mDueDate +
+                ", deadline=" + mDeadline +
+                ", priority=" + priorityS +
                 ']';
     }
 

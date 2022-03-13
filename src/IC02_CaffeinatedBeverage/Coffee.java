@@ -3,7 +3,7 @@ import java.util.Objects;
 public class Coffee extends CaffeinatedBeverage{
 
 private int mRoastType;
-private String mType;
+private final String mType;
 
     public int getRoastType() {
         return mRoastType;

@@ -113,13 +113,31 @@ public class Main {
         return minObj;
     }
 
+//    public static TradingCard lowestPricedCard(TradingCard[] inventory){
+//        double min=Double.MAX_VALUE;
+//        TradingCard minObj=null;
+//
+//        for (int i = 0; i < inventory.length; i++) {
+//       if(inventory[i]==null)
+ //   return minObj;
+
+//            if(inventory[i] instanceOf TradingCard)
+//            if((TradingCards)inventory[i].getPrice()<min){
+//                min=inventory[i].getPrice();
+//                minObj=(TradingCards)inventory[i];
+//
+//            }
+//        }
+//        return minObj;
+//    }
 
 
 
 
 
 
-        }
+
+}
 
 
 //Team 1:
